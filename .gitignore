@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# SeleniumBase / runtime artifacts
+artifacts/
+latest_logs/
+saved_charts/
+downloaded_files/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
