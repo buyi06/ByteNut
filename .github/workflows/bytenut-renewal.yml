@@ -2,7 +2,7 @@ name: Bytenut 续期
 
 on:
   schedule:
-    - cron: '0 */1 * * *'   # 每小时整点（UTC）
+    - cron: '*/55 * * * *'  # 每 55 分钟（UTC）——注：cron 不能表达均匀的 55 分间隔，实际在每小时的 :00 与 :55 各跨一次，仅保证 ≤ 55 分钟必跨一次
   workflow_dispatch:
 
 permissions:
